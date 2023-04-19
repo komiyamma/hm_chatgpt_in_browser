@@ -1,5 +1,2 @@
-*.css linguist-vendored
-*.html linguist-vendored
-*.htm linguist-vendored
 *.cshtml linguist-language=C#
 *.razor linguist-language=C#
