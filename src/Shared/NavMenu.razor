@@ -1,27 +1,27 @@
-﻿<div class="top-row ps-3 navbar navbar-dark">
+﻿<!-- div class="top-row ps-3 navbar navbar-dark">
     <div class="container-fluid">
-        <a class="navbar-brand" href="">OpenAI.NET BlazorApp</a>
+        <a class="navbar-brand" href="chat">目次</a>
         <button title="Navigation menu" class="navbar-toggler" @onclick="ToggleNavMenu">
             <span class="navbar-toggler-icon"></span>
         </button>
     </div>
-</div>
+</div -->
 
 <div class="@NavMenuCssClass" @onclick="ToggleNavMenu">
     <nav class="flex-column">
         <div class="nav-item px-3">
             <NavLink class="nav-link" href="chat">
-                <span class="oi oi-list-rich" aria-hidden="true"></span> Chat
+                <span class="oi oi-comment-square" aria-hidden="true"></span>ChatGPT
             </NavLink>
         </div>
-        <div class="nav-item px-3">
+        <!-- div class="nav-item px-3">
             <NavLink class="nav-link" href="textCompletion">
-                <span class="oi oi-list-rich" aria-hidden="true"></span> Text Completion
+                <span class="oi oi-comment-square" aria-hidden="true"></span>Davinci
             </NavLink>
-        </div>
+        </div !-->
         <div class="nav-item px-3">
             <NavLink class="nav-link" href="" Match="NavLinkMatch.All">
-                <span class="oi oi-home" aria-hidden="true"></span> Home
+                <span class="oi oi-external-link" aria-hidden="true"></span>Link
             </NavLink>
         </div>
     </nav>

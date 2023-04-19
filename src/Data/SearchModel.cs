@@ -4,7 +4,7 @@ namespace HmChatGptInBrowser.Data
 {
     public class SearchModel
     {
-        [Required]
+        [Required(ErrorMessage ="テキスト内容が空っぽです")]
         public string SearchText { get; set; } = "";
 
         [Required]
