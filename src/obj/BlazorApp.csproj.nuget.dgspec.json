@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "G:\\repogitory\\gen_openai_chatgpt_blazor\\Blazor\\BlazorApp\\BlazorApp.csproj": {}
+    "G:\\repogitory\\gen_blazor_openai_chatgpt\\src\\BlazorApp.csproj": {}
   },
   "projects": {
-    "G:\\repogitory\\gen_openai_chatgpt_blazor\\Blazor\\BlazorApp\\BlazorApp.csproj": {
+    "G:\\repogitory\\gen_blazor_openai_chatgpt\\src\\BlazorApp.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "G:\\repogitory\\gen_openai_chatgpt_blazor\\Blazor\\BlazorApp\\BlazorApp.csproj",
+        "projectUniqueName": "G:\\repogitory\\gen_blazor_openai_chatgpt\\src\\BlazorApp.csproj",
         "projectName": "BlazorApp",
-        "projectPath": "G:\\repogitory\\gen_openai_chatgpt_blazor\\Blazor\\BlazorApp\\BlazorApp.csproj",
+        "projectPath": "G:\\repogitory\\gen_blazor_openai_chatgpt\\src\\BlazorApp.csproj",
         "packagesPath": "C:\\Users\\master\\.nuget\\packages\\",
-        "outputPath": "G:\\repogitory\\gen_openai_chatgpt_blazor\\Blazor\\BlazorApp\\obj\\",
+        "outputPath": "G:\\repogitory\\gen_blazor_openai_chatgpt\\src\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages",
