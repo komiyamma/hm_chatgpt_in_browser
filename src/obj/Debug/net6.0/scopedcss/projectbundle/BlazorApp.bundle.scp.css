@@ -11,6 +11,7 @@
     background-color: rgba(52,53,65,var(--tw-bg-opacity));
 }
 
+
 .chat > .input-area[b-39z8m5pucs] {
     bottom: 10px;
     position: absolute;
@@ -84,8 +85,9 @@
     background-color: rgba(68,70,84,var(--tw-bg-opacity));
 }
 /* _content/BlazorApp/Pages/Chat/components/ConversationContext.razor.rz.scp.css */
-.converation-context[b-27ls0nefli] {
-    color: white;
+/* オリジナル
+ .converation-context {
+     color: white;
     flex: 0 0 30%;
     padding-right: 10px;
     padding-left: 10px;
@@ -93,6 +95,19 @@
     background-color: rgba(32,33,35,var(--tw-bg-opacity));
     overflow-y: hidden;
 }
+*/
+
+.converation-context[b-27ls0nefli] {
+    visibility:hidden;
+    color: white;
+    flex: 0 0 0%;
+    padding-right: 0px;
+    padding-left: 0px;
+    --tw-bg-opacity: 1;
+    background-color: rgba(32,33,35,var(--tw-bg-opacity));
+    overflow-y: hidden;
+}
+
 
 .system-area[b-27ls0nefli], [b-27ls0nefli] .system-area {
     outline: none !important;
@@ -147,56 +162,60 @@
 .lds-facebook[b-usaorw3gbo] {
     display: inline-block;
     position: relative;
-    width: 80px;
-    height: 80px;
+    width: 40px;
+    height: 40px;
 }
 
 .lds-facebook div[b-usaorw3gbo] {
     display: inline-block;
     position: absolute;
-    left: 8px;
-    width: 16px;
+    left: 4px;
+    width: 8px;
     background: #fff;
     animation: lds-facebook-b-usaorw3gbo 1.2s cubic-bezier(0, 0.5, 0.5, 1) infinite;
 }
 
 .lds-facebook div:nth-child(1)[b-usaorw3gbo] {
-    left: 8px;
+    left: 4px;
     animation-delay: -0.24s;
 }
 
 .lds-facebook div:nth-child(2)[b-usaorw3gbo] {
-    left: 32px;
+    left: 16px;
     animation-delay: -0.12s;
 }
 
 .lds-facebook div:nth-child(3)[b-usaorw3gbo] {
-    left: 56px;
+    left: 28px;
     animation-delay: 0;
 }
 
 @keyframes lds-facebook-b-usaorw3gbo {
     0% {
-        top: 8px;
-        height: 64px;
+        top: 4px;
+        height: 32px;
     }
 
     50%, 100% {
-        top: 24px;
-        height: 32px;
+        top: 12px;
+        height: 16px;
     }
 }
 
 .loading-area[b-usaorw3gbo] {
     background: #00000054;
-    border-radius: 30px;
-    width: 200px;
+    border-radius: 10px;
+    width: 100px;
     margin: auto;
 }
 
 .loading-area .loading-text[b-usaorw3gbo] {
     color: white;
-    font-size: 20px;
+    font-size: 10px;
+}
+
+.loading-text[b-usaorw3gbo] {
+    padding-top:8px;
 }
 /* _content/BlazorApp/Shared/MainLayout.razor.rz.scp.css */
 .page[b-3dsd3z3yec] {

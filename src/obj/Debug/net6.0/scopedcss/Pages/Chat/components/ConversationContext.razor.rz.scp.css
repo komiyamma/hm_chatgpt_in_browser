@@ -1,5 +1,6 @@
-.converation-context[b-27ls0nefli] {
-    color: white;
+/* オリジナル
+ .converation-context {
+     color: white;
     flex: 0 0 30%;
     padding-right: 10px;
     padding-left: 10px;
@@ -7,6 +8,19 @@
     background-color: rgba(32,33,35,var(--tw-bg-opacity));
     overflow-y: hidden;
 }
+*/
+
+.converation-context[b-27ls0nefli] {
+    visibility:hidden;
+    color: white;
+    flex: 0 0 0%;
+    padding-right: 0px;
+    padding-left: 0px;
+    --tw-bg-opacity: 1;
+    background-color: rgba(32,33,35,var(--tw-bg-opacity));
+    overflow-y: hidden;
+}
+
 
 .system-area[b-27ls0nefli], [b-27ls0nefli] .system-area {
     outline: none !important;
