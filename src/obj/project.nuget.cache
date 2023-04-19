@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "w5Vp0JouLofrRsyKNulbxKPYa0jadzYrOwXSTr6+gVv2wNKxGt+jueJoSqOTCIwq12M+sXmxLN0Kupet07hCOQ==",
+  "dgSpecHash": "9T93dOYnhk8HXL1hqqk/vdkStTz76D2q8M6qtlSxY6FJFgwh0V4WFOTfm8U0nASJOdT1ab7xw2nILPBsEgM8Gg==",
   "success": true,
-  "projectFilePath": "G:\\repogitory\\gen_blazor_openai_chatgpt\\src\\BlazorApp.csproj",
+  "projectFilePath": "G:\\repogitory\\gen_blazor_openai_chatgpt\\src\\HmChatGptInBrowser.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\master\\.nuget\\packages\\colorcode.core\\2.0.6\\colorcode.core.2.0.6.nupkg.sha512",
     "C:\\Users\\master\\.nuget\\packages\\colorcode.html\\2.0.6\\colorcode.html.2.0.6.nupkg.sha512",

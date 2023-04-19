@@ -1,46 +1,46 @@
-.chat-input-group[b-oedo0oiu1u] {
+.chat-input-group[b-81jt8xc77k] {
     height: 50px;
 }
 
-.chat-input[b-oedo0oiu1u], [b-oedo0oiu1u] .chat-input {
+.chat-input[b-81jt8xc77k], [b-81jt8xc77k] .chat-input {
     --tw-bg-opacity: 0.5;
-    background-color: rgba(68,70,84,var(--tw-bg-opacity));
-    color: white;
+    background-color: rgba(193,195,210,var(--tw-bg-opacity));
+    color: black;
     border: none;
-    border-top-color: rgba(32, 33, 35, 0.5);
-    border-right-color: rgba(32, 33, 35, 0.5);
-    border-bottom-color: rgba(32, 33, 35, 0.5);
-    border-left-color: rgba(32, 33, 35, 0.5);
+    border-top-color: rgba(230, 230, 230, 0.5);
+    border-right-color: rgba(230, 230, 230, 0.5);
+    border-bottom-color: rgba(230, 230, 230, 0.5);
+    border-left-color: rgba(230, 230, 230, 0.5);
     outline: none !important;
 }
 
-.chat-input:focus[b-oedo0oiu1u], [b-oedo0oiu1u] .chat-input:focus {
+.chat-input:focus[b-81jt8xc77k], [b-81jt8xc77k] .chat-input:focus {
     --tw-bg-opacity: 0.5;
-    background-color: rgba(68,70,84,var(--tw-bg-opacity));
-    color: white;
+    background-color: rgba(193,195,210,var(--tw-bg-opacity));
+    color: black;
     border: none;
-    border-top-color: rgba(32, 33, 35, 0.5);
-    border-right-color: rgba(32, 33, 35, 0.5);
-    border-bottom-color: rgba(32, 33, 35, 0.5);
-    border-left-color: rgba(32, 33, 35, 0.5);
+    border-top-color: rgba(230, 230, 230, 0.5);
+    border-right-color: rgba(230, 230, 230, 0.5);
+    border-bottom-color: rgba(230, 230, 230, 0.5);
+    border-left-color: rgba(230, 230, 230, 0.5);
 }
 
-.chat-input-button[b-oedo0oiu1u] {
+.chat-input-button[b-81jt8xc77k] {
     --tw-bg-opacity: 0.5;
-    background-color: rgba(68,70,84,var(--tw-bg-opacity));
+    background-color: rgba(193,195,210,var(--tw-bg-opacity));
     border: none;
-    color: white;
+    color: black;
 }
 
-.chat-input-button:hover[b-oedo0oiu1u] {
-    --tw-text-opacity: 1;
-    color: rgba(172,172,190,var(--tw-text-opacity));
-    --tw-bg-opacity: 1;
-    background-color: rgba(32,33,35,var(--tw-bg-opacity));
-}
+    .chat-input-button:hover[b-81jt8xc77k] {
+        --tw-text-opacity: 1;
+        color: rgba(70,70,80,var(--tw-text-opacity));
+        --tw-bg-opacity: 1;
+        background-color: rgba(230, 230, 230,var(--tw-bg-opacity));
+    }
 
-.stop[b-oedo0oiu1u] {
+.stop[b-81jt8xc77k] {
     background-color: red;
-    color: white;
+    color: black;
     font-weight: bold;
 }

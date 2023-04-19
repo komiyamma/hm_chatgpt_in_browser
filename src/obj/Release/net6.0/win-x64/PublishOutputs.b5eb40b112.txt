@@ -1,5 +1,0 @@
-G:\repogitory\gen_openai_chatgpt_blazor\Blazor\BlazorApp\obj\Release\net6.0\win-x64\PubTmp\Out\appsettings.Development.json
-G:\repogitory\gen_openai_chatgpt_blazor\Blazor\BlazorApp\obj\Release\net6.0\win-x64\PubTmp\Out\appsettings.json
-G:\repogitory\gen_openai_chatgpt_blazor\Blazor\BlazorApp\obj\Release\net6.0\win-x64\PubTmp\Out\BlazorApp.pdb
-G:\repogitory\gen_openai_chatgpt_blazor\Blazor\BlazorApp\obj\Release\net6.0\win-x64\PubTmp\Out\aspnetcorev2_inprocess.dll
-G:\repogitory\gen_openai_chatgpt_blazor\Blazor\BlazorApp\obj\Release\net6.0\win-x64\PubTmp\Out\BlazorApp.exe

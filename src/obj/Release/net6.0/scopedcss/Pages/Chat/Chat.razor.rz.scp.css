@@ -1,17 +1,17 @@
-.chat-container[b-39z8m5pucs] {
+.chat-container[b-wnwxue1cap] {
     display: flex;
 }
 
-.chat[b-39z8m5pucs] {
+.chat[b-wnwxue1cap] {
     min-height: calc(100vh);
     position: relative;
     flex: 1;
     --tw-bg-opacity: 1;
-    background-color: rgba(52,53,65,var(--tw-bg-opacity));
+    /* background-color: rgba(250,250,250,var(--tw-bg-opacity)); */
 }
 
 
-.chat > .input-area[b-39z8m5pucs] {
+.chat > .input-area[b-wnwxue1cap] {
     bottom: 30px;
     position: absolute;
     width: 80%;

@@ -1,6 +1,6 @@
 using System.ComponentModel.DataAnnotations;
 
-namespace BlazorApp.Data
+namespace HmChatGptInBrowser.Data
 {
     public class SearchModel
     {

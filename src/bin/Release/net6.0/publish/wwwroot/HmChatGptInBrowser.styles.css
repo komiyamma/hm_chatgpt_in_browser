@@ -1,0 +1,354 @@
+/* _content/HmChatGptInBrowser/Pages/Chat/Chat.razor.rz.scp.css */
+.chat-container[b-wnwxue1cap] {
+    display: flex;
+}
+
+.chat[b-wnwxue1cap] {
+    min-height: calc(100vh);
+    position: relative;
+    flex: 1;
+    --tw-bg-opacity: 1;
+    /* background-color: rgba(250,250,250,var(--tw-bg-opacity)); */
+}
+
+
+.chat > .input-area[b-wnwxue1cap] {
+    bottom: 30px;
+    position: absolute;
+    width: 80%;
+    left: 10%;
+    text-align: center;
+}
+/* _content/HmChatGptInBrowser/Pages/Chat/components/ChatInput.razor.rz.scp.css */
+.chat-input-group[b-81jt8xc77k] {
+    height: 50px;
+}
+
+.chat-input[b-81jt8xc77k], [b-81jt8xc77k] .chat-input {
+    --tw-bg-opacity: 0.5;
+    background-color: rgba(193,195,210,var(--tw-bg-opacity));
+    color: black;
+    border: none;
+    border-top-color: rgba(230, 230, 230, 0.5);
+    border-right-color: rgba(230, 230, 230, 0.5);
+    border-bottom-color: rgba(230, 230, 230, 0.5);
+    border-left-color: rgba(230, 230, 230, 0.5);
+    outline: none !important;
+}
+
+.chat-input:focus[b-81jt8xc77k], [b-81jt8xc77k] .chat-input:focus {
+    --tw-bg-opacity: 0.5;
+    background-color: rgba(193,195,210,var(--tw-bg-opacity));
+    color: black;
+    border: none;
+    border-top-color: rgba(230, 230, 230, 0.5);
+    border-right-color: rgba(230, 230, 230, 0.5);
+    border-bottom-color: rgba(230, 230, 230, 0.5);
+    border-left-color: rgba(230, 230, 230, 0.5);
+}
+
+.chat-input-button[b-81jt8xc77k] {
+    --tw-bg-opacity: 0.5;
+    background-color: rgba(193,195,210,var(--tw-bg-opacity));
+    border: none;
+    color: black;
+}
+
+    .chat-input-button:hover[b-81jt8xc77k] {
+        --tw-text-opacity: 1;
+        color: rgba(70,70,80,var(--tw-text-opacity));
+        --tw-bg-opacity: 1;
+        background-color: rgba(230, 230, 230,var(--tw-bg-opacity));
+    }
+
+.stop[b-81jt8xc77k] {
+    background-color: red;
+    color: black;
+    font-weight: bold;
+}
+/* _content/HmChatGptInBrowser/Pages/Chat/components/Conversation.razor.rz.scp.css */
+.conversation-area[b-gd0imlusz5] {
+    width: 100%;
+    height: calc(100vh - 70px);
+    overflow-y: scroll;
+}
+
+.conversation-item[b-gd0imlusz5] {
+    padding: 10px;
+    min-height: 40px;
+    --tw-text-opacity: 1;
+    color: rgba(20,20,20,var(--tw-text-opacity));
+}
+
+.conversation-area > .ai-reply[b-gd0imlusz5] {
+    --tw-bg-opacity: 1;
+    background-color: rgba(220,220,230,var(--tw-bg-opacity));
+}
+/* _content/HmChatGptInBrowser/Pages/Chat/components/ConversationContext.razor.rz.scp.css */
+/* オリジナル
+ .converation-context {
+    color: black;
+    flex: 0 0 30%;
+    padding-right: 10px;
+    padding-left: 10px;
+    --tw-bg-opacity: 1;
+    background-color: rgba(32,33,35,var(--tw-bg-opacity));
+    overflow-y: hidden;
+}
+*/
+
+.converation-context[b-4exqpykl7g] {
+    visibility: hidden;
+    color: black;
+    flex: 0 0 0%;
+    padding-right: 0px;
+    padding-left: 0px;
+    --tw-bg-opacity: 1;
+    background-color: rgba(230, 230, 230,var(--tw-bg-opacity));
+    overflow-y: hidden;
+}
+
+
+.system-area[b-4exqpykl7g], [b-4exqpykl7g] .system-area {
+    outline: none !important;
+    width: 100%;
+    min-height: 250px;
+    --tw-bg-opacity: 1;
+    background-color: rgba(193,195,210,var(--tw-bg-opacity));
+    color: black;
+    border: none;
+    resize: none;
+}
+
+.assistant-area[b-4exqpykl7g], [b-4exqpykl7g] .assistant-area {
+    width: 100%;
+    color: black;
+    height: 100%;
+    min-height: calc(100vh - 329px) !important;
+    --tw-bg-opacity: 1;
+    background-color: rgba(193,195,210,var(--tw-bg-opacity));
+    border: none;
+    resize: none;
+    outline: none !important;
+}
+
+.assistant-area:focus[b-4exqpykl7g] {
+    color: black;
+    background-color: rgba(193,195,210,var(--tw-bg-opacity));
+    border: none;
+    resize: none;
+}
+
+
+.system-area:focus[b-4exqpykl7g] {
+    --tw-bg-opacity: 1;
+    background-color: rgba(193,195,210,var(--tw-bg-opacity));
+    color: black;
+    border: none;
+    resize: none;
+}
+/* _content/HmChatGptInBrowser/Pages/Chat/components/ErrorIndicator.razor.rz.scp.css */
+.error-area[b-rpb4nta9j3] {
+    background: #ffffff54;
+    border-radius: 15px;
+    margin: auto;
+}
+
+    .error-area .error-text[b-rpb4nta9j3] {
+        color: red;
+        font-size: 20px;
+    }
+/* _content/HmChatGptInBrowser/Pages/Chat/components/LoadingIndicator.razor.rz.scp.css */
+.lds-facebook[b-n4c5d6uubt] {
+    display: inline-block;
+    position: relative;
+    width: 40px;
+    height: 40px;
+    opacity:0.4;
+}
+
+.lds-facebook div[b-n4c5d6uubt] {
+    display: inline-block;
+    position: absolute;
+    left: 4px;
+    width: 8px;
+    background: #000;
+    animation: lds-facebook-b-n4c5d6uubt 1.2s cubic-bezier(0, 0.5, 0.5, 1) infinite;
+}
+
+.lds-facebook div:nth-child(1)[b-n4c5d6uubt] {
+    left: 4px;
+    animation-delay: -0.24s;
+}
+
+.lds-facebook div:nth-child(2)[b-n4c5d6uubt] {
+    left: 16px;
+    animation-delay: -0.12s;
+}
+
+.lds-facebook div:nth-child(3)[b-n4c5d6uubt] {
+    left: 28px;
+    animation-delay: 0;
+}
+
+@keyframes lds-facebook-b-n4c5d6uubt {
+    0% {
+        top: 4px;
+        height: 32px;
+    }
+
+    50%, 100% {
+        top: 12px;
+        height: 16px;
+    }
+}
+
+.loading-area[b-n4c5d6uubt] {
+    background: #ffffff54;
+    border-radius: 10px;
+    width: 100px;
+    margin: auto;
+}
+
+.loading-area .loading-text[b-n4c5d6uubt] {
+    color: black;
+    font-size: 10px;
+}
+
+.loading-text[b-n4c5d6uubt] {
+    padding-top:8px;
+}
+/* _content/HmChatGptInBrowser/Shared/MainLayout.razor.rz.scp.css */
+.page[b-zk6a0gneql] {
+    position: relative;
+    display: flex;
+    flex-direction: column;
+}
+
+main[b-zk6a0gneql] {
+    flex: 1;
+}
+
+.sidebar[b-zk6a0gneql] {
+    background-image: linear-gradient(180deg, rgb(5, 39, 103) 0%, #3a0647 70%);
+}
+
+.top-row[b-zk6a0gneql] {
+    background-color: #f7f7f7;
+    border-bottom: 1px solid #d6d5d5;
+    justify-content: flex-end;
+    height: 3.5rem;
+    display: flex;
+    align-items: center;
+}
+
+    .top-row[b-zk6a0gneql]  a, .top-row .btn-link[b-zk6a0gneql] {
+        white-space: nowrap;
+        margin-left: 1.5rem;
+    }
+
+    .top-row a:first-child[b-zk6a0gneql] {
+        overflow: hidden;
+        text-overflow: ellipsis;
+    }
+
+@media (max-width: 640.98px) {
+    .top-row:not(.auth)[b-zk6a0gneql] {
+        display: none;
+    }
+
+    .top-row.auth[b-zk6a0gneql] {
+        justify-content: space-between;
+    }
+
+    .top-row a[b-zk6a0gneql], .top-row .btn-link[b-zk6a0gneql] {
+        margin-left: 0;
+    }
+}
+
+@media (min-width: 641px) {
+    .page[b-zk6a0gneql] {
+        flex-direction: row;
+    }
+
+    .sidebar[b-zk6a0gneql] {
+        width: 250px;
+        height: 100vh;
+        position: sticky;
+        top: 0;
+    }
+
+    .top-row[b-zk6a0gneql] {
+        position: sticky;
+        top: 0;
+        z-index: 1;
+    }
+
+    .top-row[b-zk6a0gneql], article[b-zk6a0gneql] {
+        padding-left: 2rem !important;
+        padding-right: 1.5rem !important;
+    }
+}
+/* _content/HmChatGptInBrowser/Shared/NavMenu.razor.rz.scp.css */
+.navbar-toggler[b-yte5mx9q7z] {
+    background-color: rgba(255, 255, 255, 0.1);
+}
+
+.top-row[b-yte5mx9q7z] {
+    height: 3.5rem;
+    background-color: rgba(0,0,0,0.4);
+}
+
+.navbar-brand[b-yte5mx9q7z] {
+    font-size: 1.1rem;
+}
+
+.oi[b-yte5mx9q7z] {
+    width: 2rem;
+    font-size: 1.1rem;
+    vertical-align: text-top;
+    top: -2px;
+}
+
+.nav-item[b-yte5mx9q7z] {
+    font-size: 0.9rem;
+    padding-bottom: 0.5rem;
+}
+
+    .nav-item:first-of-type[b-yte5mx9q7z] {
+        padding-top: 1rem;
+    }
+
+    .nav-item:last-of-type[b-yte5mx9q7z] {
+        padding-bottom: 1rem;
+    }
+
+    .nav-item[b-yte5mx9q7z]  a {
+        color: #d7d7d7;
+        border-radius: 4px;
+        height: 3rem;
+        display: flex;
+        align-items: center;
+        line-height: 3rem;
+    }
+
+.nav-item[b-yte5mx9q7z]  a.active {
+    background-color: rgba(255,255,255,0.25);
+    color: white;
+}
+
+.nav-item[b-yte5mx9q7z]  a:hover {
+    background-color: rgba(255,255,255,0.1);
+    color: white;
+}
+
+@media (min-width: 641px) {
+    .navbar-toggler[b-yte5mx9q7z] {
+        display: none;
+    }
+
+    .collapse[b-yte5mx9q7z] {
+        /* Never collapse the sidebar for wide screens */
+        display: block;
+    }
+}

@@ -1,4 +1,4 @@
 G:\repogitory\gen_blazor_openai_chatgpt\src\obj\Release\net6.0\win-x86\PubTmp\Out\appsettings.Development.json
 G:\repogitory\gen_blazor_openai_chatgpt\src\obj\Release\net6.0\win-x86\PubTmp\Out\appsettings.json
-G:\repogitory\gen_blazor_openai_chatgpt\src\obj\Release\net6.0\win-x86\PubTmp\Out\BlazorApp.pdb
-G:\repogitory\gen_blazor_openai_chatgpt\src\obj\Release\net6.0\win-x86\PubTmp\Out\BlazorApp.exe
+G:\repogitory\gen_blazor_openai_chatgpt\src\obj\Release\net6.0\win-x86\PubTmp\Out\HmChatGptInBrowser.pdb
+G:\repogitory\gen_blazor_openai_chatgpt\src\obj\Release\net6.0\win-x86\PubTmp\Out\HmChatGptInBrowser.exe

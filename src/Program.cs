@@ -1,4 +1,4 @@
-using BlazorApp.Data;
+using HmChatGptInBrowser.Data;
 using Microsoft.AspNetCore.Components;
 using Microsoft.AspNetCore.Components.Web;
 using OpenAI.Net;
@@ -7,7 +7,7 @@ using static System.Net.Mime.MediaTypeNames;
 using System;
 using System.Diagnostics;
 
-namespace BlazorApp
+namespace HmChatGptInBrowser
 {
     public partial class Program
     {
@@ -19,14 +19,14 @@ namespace BlazorApp
 
         private static async Task CheckFindHidemaruWindowTasks(string exefullpath)
         {
-            await Task.Delay(2000); // 2秒待機
+            await Task.Delay(3000); // 2秒待機
 
             // 渡されたexeのフルパス
             var basename = Path.GetFileNameWithoutExtension(exefullpath);
 
             while (true) // 無限ループ
             {
-                await Task.Delay(1000); // 0.4秒待機
+                await Task.Delay(1000); // 1秒おき
 
                 // 「hidemaru」の部分だけ抽出。万が一 hidemaru.exe の名前を変更するような人が居ても動作するようにする。
                 Process[] proc_list = Process.GetProcessesByName(basename);

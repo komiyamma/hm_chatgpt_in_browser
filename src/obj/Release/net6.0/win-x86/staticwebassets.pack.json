@@ -1,8 +1,8 @@
 {
   "Files": [
     {
-      "Id": "G:\\repogitory\\gen_blazor_openai_chatgpt\\src\\obj\\Release\\net6.0\\win-x86\\scopedcss\\projectbundle\\BlazorApp.bundle.scp.css",
-      "PackagePath": "staticwebassets\\BlazorApp.bundle.scp.css"
+      "Id": "G:\\repogitory\\gen_blazor_openai_chatgpt\\src\\obj\\Release\\net6.0\\win-x86\\scopedcss\\projectbundle\\HmChatGptInBrowser.bundle.scp.css",
+      "PackagePath": "staticwebassets\\HmChatGptInBrowser.bundle.scp.css"
     },
     {
       "Id": "G:\\repogitory\\gen_blazor_openai_chatgpt\\src\\wwwroot\\css\\bootstrap\\bootstrap.min.css",
@@ -57,20 +57,20 @@
       "PackagePath": "staticwebassets\\favicon.ico"
     },
     {
-      "Id": "obj\\Release\\net6.0\\win-x86\\staticwebassets\\msbuild.BlazorApp.Microsoft.AspNetCore.StaticWebAssets.props",
+      "Id": "obj\\Release\\net6.0\\win-x86\\staticwebassets\\msbuild.HmChatGptInBrowser.Microsoft.AspNetCore.StaticWebAssets.props",
       "PackagePath": "build\\Microsoft.AspNetCore.StaticWebAssets.props"
     },
     {
-      "Id": "obj\\Release\\net6.0\\win-x86\\staticwebassets\\msbuild.build.BlazorApp.props",
-      "PackagePath": "build\\BlazorApp.props"
+      "Id": "obj\\Release\\net6.0\\win-x86\\staticwebassets\\msbuild.build.HmChatGptInBrowser.props",
+      "PackagePath": "build\\HmChatGptInBrowser.props"
     },
     {
-      "Id": "obj\\Release\\net6.0\\win-x86\\staticwebassets\\msbuild.buildMultiTargeting.BlazorApp.props",
-      "PackagePath": "buildMultiTargeting\\BlazorApp.props"
+      "Id": "obj\\Release\\net6.0\\win-x86\\staticwebassets\\msbuild.buildMultiTargeting.HmChatGptInBrowser.props",
+      "PackagePath": "buildMultiTargeting\\HmChatGptInBrowser.props"
     },
     {
-      "Id": "obj\\Release\\net6.0\\win-x86\\staticwebassets\\msbuild.buildTransitive.BlazorApp.props",
-      "PackagePath": "buildTransitive\\BlazorApp.props"
+      "Id": "obj\\Release\\net6.0\\win-x86\\staticwebassets\\msbuild.buildTransitive.HmChatGptInBrowser.props",
+      "PackagePath": "buildTransitive\\HmChatGptInBrowser.props"
     }
   ],
   "ElementsToRemove": []

@@ -2,7 +2,7 @@
 
 <PageTitle>Text Completion</PageTitle>
 
-@using BlazorApp.Data
+@using HmChatGptInBrowser.Data
 @using OpenAI.Net
 @inject IOpenAIService OpenAIService
 
@@ -20,19 +20,19 @@
     <div class="mb-3">
         <label for="exampleInputEmail1" class="form-label">Prompt</label>
         <InputText id="name" @bind-Value="searchModel.SearchText" class="form-control" />
-        <div id="emailHelp" class="form-text">Text to send to OpenAI Text Completion endpoint</div>
+        <div id="emailHelp" class="form-text">OpenAI Text Completionのエンドポイントに送信するテキスト。</div>
     </div>
 
     <div class="mb-3">
         <label for="exampleInputEmail1" class="form-label">No. of results</label>
         <InputNumber id="noOfResults" @bind-Value="searchModel.NoOfResults" class="form-control" />
-        <div id="emailHelp" class="form-text">How many results to return</div>
+            <div id="emailHelp" class="form-text">何件の結果を返すか</div>
     </div>
 
     <div class="mb-3">
         <label for="exampleInputEmail1" class="form-label">Max Tokens</label>
         <InputNumber id="maxTokens" @bind-Value="searchModel.MaxTokens" class="form-control" />
-        <div id="emailHelp" class="form-text">Max tokens to consume, relates to how long the completion will be, N.B this includes your prompt</div>
+        <div id="emailHelp" class="form-text">消費する最大トークンは、文章の長さに関係します（注：これはあなたのプロンプトを含みます）。</div>
     </div>
    
 

@@ -1,6 +1,6 @@
 /* オリジナル
  .converation-context {
-     color: white;
+    color: black;
     flex: 0 0 30%;
     padding-right: 10px;
     padding-left: 10px;
@@ -10,53 +10,53 @@
 }
 */
 
-.converation-context[b-27ls0nefli] {
-    visibility:hidden;
-    color: white;
+.converation-context[b-4exqpykl7g] {
+    visibility: hidden;
+    color: black;
     flex: 0 0 0%;
     padding-right: 0px;
     padding-left: 0px;
     --tw-bg-opacity: 1;
-    background-color: rgba(32,33,35,var(--tw-bg-opacity));
+    background-color: rgba(230, 230, 230,var(--tw-bg-opacity));
     overflow-y: hidden;
 }
 
 
-.system-area[b-27ls0nefli], [b-27ls0nefli] .system-area {
+.system-area[b-4exqpykl7g], [b-4exqpykl7g] .system-area {
     outline: none !important;
     width: 100%;
     min-height: 250px;
     --tw-bg-opacity: 1;
-    background-color: rgba(68,70,84,var(--tw-bg-opacity));
-    color: white;
+    background-color: rgba(193,195,210,var(--tw-bg-opacity));
+    color: black;
     border: none;
     resize: none;
 }
 
-.assistant-area[b-27ls0nefli], [b-27ls0nefli] .assistant-area {
+.assistant-area[b-4exqpykl7g], [b-4exqpykl7g] .assistant-area {
     width: 100%;
-    color: white;
+    color: black;
     height: 100%;
     min-height: calc(100vh - 329px) !important;
     --tw-bg-opacity: 1;
-    background-color: rgba(68,70,84,var(--tw-bg-opacity));
+    background-color: rgba(193,195,210,var(--tw-bg-opacity));
     border: none;
     resize: none;
     outline: none !important;
 }
 
-.assistant-area:focus[b-27ls0nefli] {
-    color: white;
-    background-color: rgba(68,70,84,var(--tw-bg-opacity));
+.assistant-area:focus[b-4exqpykl7g] {
+    color: black;
+    background-color: rgba(193,195,210,var(--tw-bg-opacity));
     border: none;
     resize: none;
 }
 
 
-.system-area:focus[b-27ls0nefli] {
+.system-area:focus[b-4exqpykl7g] {
     --tw-bg-opacity: 1;
-    background-color: rgba(68,70,84,var(--tw-bg-opacity));
-    color: white;
+    background-color: rgba(193,195,210,var(--tw-bg-opacity));
+    color: black;
     border: none;
     resize: none;
 }

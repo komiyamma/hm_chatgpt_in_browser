@@ -7906,9 +7906,9 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "G:\\repogitory\\gen_blazor_openai_chatgpt\\src\\BlazorApp.csproj",
-      "projectName": "BlazorApp",
-      "projectPath": "G:\\repogitory\\gen_blazor_openai_chatgpt\\src\\BlazorApp.csproj",
+      "projectUniqueName": "G:\\repogitory\\gen_blazor_openai_chatgpt\\src\\HmChatGptInBrowser.csproj",
+      "projectName": "HmChatGptInBrowser",
+      "projectPath": "G:\\repogitory\\gen_blazor_openai_chatgpt\\src\\HmChatGptInBrowser.csproj",
       "packagesPath": "C:\\Users\\master\\.nuget\\packages\\",
       "outputPath": "G:\\repogitory\\gen_blazor_openai_chatgpt\\src\\obj\\publish\\win-x86\\",
       "projectStyle": "PackageReference",

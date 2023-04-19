@@ -1,21 +1,21 @@
-﻿@using BlazorApp.Data;
+﻿@using HmChatGptInBrowser.Data;
 
 <EditForm Model="@SearchModel" OnValidSubmit="@OnGenerateTextCompletionSubmitted">
     <DataAnnotationsValidator />
     <ValidationSummary />
 
     <div class="input-group chat-input-group">
-        <InputText title="prompt" id="name" @bind-Value="SearchModel.SearchText" class="form-control chat-input shadow-none" />
+        <InputText title="プロンプト" id="name" @bind-Value="SearchModel.SearchText" class="form-control chat-input shadow-none" />
         @if (IsRecording)
         {
-            <button type="button" class="stop" disabled="@IsRecording == true">Stop Recording</button>
+            <button type="button" class="stop" disabled="@IsRecording == true">録音の停止</button>
         }
         else
         {
             <button title="record" type="button" @onclick="OnRecordClickedClicked" class="chat-input-button"> <i class="oi oi-microphone"></i></button>
         }
 
-        <!-- ★★ カット button title="generate-image" type="button" @onclick="OnGenerateTextCompletionSubmitted" class="chat-input-button" disabled="@IsBusy"> <i class="oi oi-image"></i></!-->
+        <!-- ★★ カット button title="イメージ生成" type="button" @onclick="OnGenerateTextCompletionSubmitted" class="chat-input-button" disabled="@IsBusy"> <i class="oi oi-image"></i></!-->
 
         <button title="send" type="submit" class="chat-input-button" disabled="@IsBusy"> <i class="oi oi-location"></i></button>
 

@@ -1,9 +1,9 @@
 ﻿@page "/chat"
 
-@using BlazorApp.Pages.Chat.components
+@using HmChatGptInBrowser.Pages.Chat.components
 @using ColorCode.Styling;
 @using Markdig;
-@using BlazorApp.Data
+@using HmChatGptInBrowser.Data
 @using Microsoft.JSInterop;
 @using OpenAI.Net
 @using System.Text;
@@ -132,7 +132,7 @@
         }
         catch (Exception ex)
         {
-            ErrorText = $"An error occured : {ex.Message}";
+            ErrorText = $"エラーが発生 : {ex.Message}";
         }
 
         SearchModel.Assistant += $"\r\n{this.ConversationHistory[ConversationHistory.Count - 1].Message}";

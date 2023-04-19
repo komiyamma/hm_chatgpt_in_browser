@@ -1,4 +1,4 @@
-﻿namespace BlazorApp.Data
+﻿namespace HmChatGptInBrowser.Data
 {
     public class ChatInfo
     {
