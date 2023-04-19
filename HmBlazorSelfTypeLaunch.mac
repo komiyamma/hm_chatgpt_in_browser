@@ -4,7 +4,6 @@
  */
 
 
-
 // OPENAIのAPIのKEYの設定 
 SET_OPENAI_KEY:
 
@@ -15,7 +14,7 @@ SET_OPENAI_KEY:
     }
 
 
-BLAZOR_SERVER_SETTING:
+SET_BLAZOR_SERVER:
 
     // Blazorサーバーの実行ファイル(BlazorApp.exeなど) へのフルパスを指定。
     $BLAZOR_FULLPATH = @"G:\repogitory\gen_blazor_openai_chatgpt\src\bin\Release\net6.0\publish\HmChatGptInBrowser.exe";
@@ -25,11 +24,15 @@ BLAZOR_SERVER_SETTING:
     #BLAZOR_HOSTPORT = 49901;
 
 
+SET_HIDEMARUEXE_PATH:
 
-CREATE_BLAZOR_SERVER_UNIQUE_PORT:
+    $HIDEMARU_EXE = hidemarudir + "\\hidemaru.exe"; // 秀丸エディタ自体の実行ファイル名を変更しているという稀な人のために一応外に出しておく。
+                                                    // GetModuleFileName するほどではないだろう。
 
 
-    $COMMAND_LINE = sprintf("""" "%s" "%s" "%d" call_by_hidemaru %s"""", $BLAZOR_FULLPATH, $OPENAI_KEY, #BLAZOR_HOSTPORT, hidemarudir + "\\hidemaru.exe");
+LAUNCH_BLAZOR_SERVER:
+
+    $COMMAND_LINE = sprintf("""" "%s" "%s" "%d" call_by_hidemaru %s %d"""", $BLAZOR_FULLPATH, $OPENAI_KEY, #BLAZOR_HOSTPORT, $HIDEMARU_EXE);
     runex $COMMAND_LINE
         , 0     //sync   0:async, 1:sync
         , 0, "" //stdin  0:none, 1:auto, 2:<file, 3:(reserved),
@@ -45,10 +48,14 @@ CREATE_BLAZOR_SERVER_UNIQUE_PORT:
     ;
 
 
-SHOW_BROWSER_PANE_BY_HTTP_URL:
-    sleep 500; // ブレイザーは立ち上がり中にアクセスしたらレイアウト崩れる
+SHOW_BROWSER_PANE:
+    sleep 500; // ブレイザーは立ち上がり中にアクセスしたら何おこるかわからんが、
+               // まぁ500ミリ秒もまてば、サーバー準備が完全でなくとも、WebView2の方が内部的に複数回トライするから大丈夫。
+
     // ブラウザ枠で表示
     showbrowserpane 1, #TARGET_BROWSER_PANE;
-    // 対応するポートでPHPサーバーが立っているので、そのURLをブラウザ枠に表示。
+    // 対応するポートでBlazorが立っているので、そのURLをブラウザ枠に表示。
+
     $BLAZOR_URL = sprintf("http://localhost:%d/chat", #BLAZOR_HOSTPORT);
     setbrowserpaneurl $BLAZOR_URL, #TARGET_BROWSER_PANE;
+
