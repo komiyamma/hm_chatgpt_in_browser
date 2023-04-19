@@ -8,7 +8,7 @@
         <InputText title="プロンプト" id="name" @bind-Value="SearchModel.SearchText" class="form-control chat-input shadow-none" />
         @if (IsRecording)
         {
-            <button type="button" class="stop" disabled="@IsRecording == true">録音の停止</button>
+            <button type="button" class="stop" disabled="@IsRecording == true">マイク録音の停止</button>
         }
         else
         {
