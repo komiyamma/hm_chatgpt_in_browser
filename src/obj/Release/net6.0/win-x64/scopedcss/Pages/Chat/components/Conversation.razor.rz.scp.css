@@ -1,0 +1,17 @@
+.conversation-area[b-aqnqqrq24m] {
+    width: 100%;
+    height: calc(100vh - 70px);
+    overflow-y: scroll;
+}
+
+.conversation-item[b-aqnqqrq24m] {
+    padding: 10px;
+    min-height: 40px;
+    --tw-text-opacity: 1;
+    color: rgba(236,236,241,var(--tw-text-opacity));
+}
+
+.conversation-area > .ai-reply[b-aqnqqrq24m] {
+    --tw-bg-opacity: 1;
+    background-color: rgba(68,70,84,var(--tw-bg-opacity));
+}
