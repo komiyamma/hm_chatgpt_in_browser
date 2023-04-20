@@ -6,7 +6,7 @@
   "compilationOptions": {},
   "targets": {
     ".NETCoreApp,Version=v6.0": {
-      "HmChatGptInBrowser/1.0.0": {
+      "HmChatGptInBrowser/1.0.0.0": {
         "dependencies": {
           "Markdig": "0.31.0",
           "MarkdigExtensions.SyntaxHighlighting": "1.0.3",
@@ -829,7 +829,7 @@
     }
   },
   "libraries": {
-    "HmChatGptInBrowser/1.0.0": {
+    "HmChatGptInBrowser/1.0.0.0": {
       "type": "project",
       "serviceable": false,
       "sha512": ""
