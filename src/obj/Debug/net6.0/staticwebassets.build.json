@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "U5pyAWFx2Tiwn4uacWB15MSlA8CoePYrG1rI/Qug/IU=",
+  "Hash": "SR6FhmCGIFUqVJj+5IEgN+JT6n2YMSCzndKglwWJHH8=",
   "Source": "HmChatGptInBrowser",
   "BasePath": "_content/HmChatGptInBrowser",
   "Mode": "Default",
@@ -10,17 +10,17 @@
     {
       "Name": "HmChatGptInBrowser\\wwwroot",
       "Source": "HmChatGptInBrowser",
-      "ContentRoot": "G:\\repogitory\\gen_blazor_openai_chatgpt\\src\\wwwroot\\",
+      "ContentRoot": "G:\\repogitory\\hm_chatgpt_in_browser\\src\\wwwroot\\",
       "BasePath": "_content/HmChatGptInBrowser",
       "Pattern": "**"
     }
   ],
   "Assets": [
     {
-      "Identity": "G:\\repogitory\\gen_blazor_openai_chatgpt\\src\\obj\\Debug\\net6.0\\scopedcss\\bundle\\HmChatGptInBrowser.styles.css",
+      "Identity": "G:\\repogitory\\hm_chatgpt_in_browser\\src\\obj\\Debug\\net6.0\\scopedcss\\bundle\\HmChatGptInBrowser.styles.css",
       "SourceId": "HmChatGptInBrowser",
       "SourceType": "Computed",
-      "ContentRoot": "G:\\repogitory\\gen_blazor_openai_chatgpt\\src\\obj\\Debug\\net6.0\\scopedcss\\bundle\\",
+      "ContentRoot": "G:\\repogitory\\hm_chatgpt_in_browser\\src\\obj\\Debug\\net6.0\\scopedcss\\bundle\\",
       "BasePath": "_content/HmChatGptInBrowser",
       "RelativePath": "HmChatGptInBrowser.styles.css",
       "AssetKind": "All",
@@ -31,13 +31,13 @@
       "AssetTraitValue": "ApplicationBundle",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "G:\\repogitory\\gen_blazor_openai_chatgpt\\src\\obj\\Debug\\net6.0\\scopedcss\\bundle\\HmChatGptInBrowser.styles.css"
+      "OriginalItemSpec": "G:\\repogitory\\hm_chatgpt_in_browser\\src\\obj\\Debug\\net6.0\\scopedcss\\bundle\\HmChatGptInBrowser.styles.css"
     },
     {
-      "Identity": "G:\\repogitory\\gen_blazor_openai_chatgpt\\src\\obj\\Debug\\net6.0\\scopedcss\\projectbundle\\HmChatGptInBrowser.bundle.scp.css",
+      "Identity": "G:\\repogitory\\hm_chatgpt_in_browser\\src\\obj\\Debug\\net6.0\\scopedcss\\projectbundle\\HmChatGptInBrowser.bundle.scp.css",
       "SourceId": "HmChatGptInBrowser",
       "SourceType": "Computed",
-      "ContentRoot": "G:\\repogitory\\gen_blazor_openai_chatgpt\\src\\obj\\Debug\\net6.0\\scopedcss\\projectbundle\\",
+      "ContentRoot": "G:\\repogitory\\hm_chatgpt_in_browser\\src\\obj\\Debug\\net6.0\\scopedcss\\projectbundle\\",
       "BasePath": "_content/HmChatGptInBrowser",
       "RelativePath": "HmChatGptInBrowser.bundle.scp.css",
       "AssetKind": "All",
@@ -48,13 +48,13 @@
       "AssetTraitValue": "ProjectBundle",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "G:\\repogitory\\gen_blazor_openai_chatgpt\\src\\obj\\Debug\\net6.0\\scopedcss\\projectbundle\\HmChatGptInBrowser.bundle.scp.css"
+      "OriginalItemSpec": "G:\\repogitory\\hm_chatgpt_in_browser\\src\\obj\\Debug\\net6.0\\scopedcss\\projectbundle\\HmChatGptInBrowser.bundle.scp.css"
     },
     {
-      "Identity": "G:\\repogitory\\gen_blazor_openai_chatgpt\\src\\wwwroot\\css\\bootstrap\\bootstrap.min.css",
+      "Identity": "G:\\repogitory\\hm_chatgpt_in_browser\\src\\wwwroot\\css\\bootstrap\\bootstrap.min.css",
       "SourceId": "HmChatGptInBrowser",
       "SourceType": "Discovered",
-      "ContentRoot": "G:\\repogitory\\gen_blazor_openai_chatgpt\\src\\wwwroot\\",
+      "ContentRoot": "G:\\repogitory\\hm_chatgpt_in_browser\\src\\wwwroot\\",
       "BasePath": "_content/HmChatGptInBrowser",
       "RelativePath": "css/bootstrap/bootstrap.min.css",
       "AssetKind": "All",
@@ -68,10 +68,10 @@
       "OriginalItemSpec": "wwwroot\\css\\bootstrap\\bootstrap.min.css"
     },
     {
-      "Identity": "G:\\repogitory\\gen_blazor_openai_chatgpt\\src\\wwwroot\\css\\bootstrap\\bootstrap.min.css.map",
+      "Identity": "G:\\repogitory\\hm_chatgpt_in_browser\\src\\wwwroot\\css\\bootstrap\\bootstrap.min.css.map",
       "SourceId": "HmChatGptInBrowser",
       "SourceType": "Discovered",
-      "ContentRoot": "G:\\repogitory\\gen_blazor_openai_chatgpt\\src\\wwwroot\\",
+      "ContentRoot": "G:\\repogitory\\hm_chatgpt_in_browser\\src\\wwwroot\\",
       "BasePath": "_content/HmChatGptInBrowser",
       "RelativePath": "css/bootstrap/bootstrap.min.css.map",
       "AssetKind": "All",
@@ -85,10 +85,10 @@
       "OriginalItemSpec": "wwwroot\\css\\bootstrap\\bootstrap.min.css.map"
     },
     {
-      "Identity": "G:\\repogitory\\gen_blazor_openai_chatgpt\\src\\wwwroot\\css\\open-iconic\\FONT-LICENSE",
+      "Identity": "G:\\repogitory\\hm_chatgpt_in_browser\\src\\wwwroot\\css\\open-iconic\\FONT-LICENSE",
       "SourceId": "HmChatGptInBrowser",
       "SourceType": "Discovered",
-      "ContentRoot": "G:\\repogitory\\gen_blazor_openai_chatgpt\\src\\wwwroot\\",
+      "ContentRoot": "G:\\repogitory\\hm_chatgpt_in_browser\\src\\wwwroot\\",
       "BasePath": "_content/HmChatGptInBrowser",
       "RelativePath": "css/open-iconic/FONT-LICENSE",
       "AssetKind": "All",
@@ -102,10 +102,10 @@
       "OriginalItemSpec": "wwwroot\\css\\open-iconic\\FONT-LICENSE"
     },
     {
-      "Identity": "G:\\repogitory\\gen_blazor_openai_chatgpt\\src\\wwwroot\\css\\open-iconic\\font\\css\\open-iconic-bootstrap.min.css",
+      "Identity": "G:\\repogitory\\hm_chatgpt_in_browser\\src\\wwwroot\\css\\open-iconic\\font\\css\\open-iconic-bootstrap.min.css",
       "SourceId": "HmChatGptInBrowser",
       "SourceType": "Discovered",
-      "ContentRoot": "G:\\repogitory\\gen_blazor_openai_chatgpt\\src\\wwwroot\\",
+      "ContentRoot": "G:\\repogitory\\hm_chatgpt_in_browser\\src\\wwwroot\\",
       "BasePath": "_content/HmChatGptInBrowser",
       "RelativePath": "css/open-iconic/font/css/open-iconic-bootstrap.min.css",
       "AssetKind": "All",
@@ -119,10 +119,10 @@
       "OriginalItemSpec": "wwwroot\\css\\open-iconic\\font\\css\\open-iconic-bootstrap.min.css"
     },
     {
-      "Identity": "G:\\repogitory\\gen_blazor_openai_chatgpt\\src\\wwwroot\\css\\open-iconic\\font\\fonts\\open-iconic.eot",
+      "Identity": "G:\\repogitory\\hm_chatgpt_in_browser\\src\\wwwroot\\css\\open-iconic\\font\\fonts\\open-iconic.eot",
       "SourceId": "HmChatGptInBrowser",
       "SourceType": "Discovered",
-      "ContentRoot": "G:\\repogitory\\gen_blazor_openai_chatgpt\\src\\wwwroot\\",
+      "ContentRoot": "G:\\repogitory\\hm_chatgpt_in_browser\\src\\wwwroot\\",
       "BasePath": "_content/HmChatGptInBrowser",
       "RelativePath": "css/open-iconic/font/fonts/open-iconic.eot",
       "AssetKind": "All",
@@ -136,10 +136,10 @@
       "OriginalItemSpec": "wwwroot\\css\\open-iconic\\font\\fonts\\open-iconic.eot"
     },
     {
-      "Identity": "G:\\repogitory\\gen_blazor_openai_chatgpt\\src\\wwwroot\\css\\open-iconic\\font\\fonts\\open-iconic.otf",
+      "Identity": "G:\\repogitory\\hm_chatgpt_in_browser\\src\\wwwroot\\css\\open-iconic\\font\\fonts\\open-iconic.otf",
       "SourceId": "HmChatGptInBrowser",
       "SourceType": "Discovered",
-      "ContentRoot": "G:\\repogitory\\gen_blazor_openai_chatgpt\\src\\wwwroot\\",
+      "ContentRoot": "G:\\repogitory\\hm_chatgpt_in_browser\\src\\wwwroot\\",
       "BasePath": "_content/HmChatGptInBrowser",
       "RelativePath": "css/open-iconic/font/fonts/open-iconic.otf",
       "AssetKind": "All",
@@ -153,10 +153,10 @@
       "OriginalItemSpec": "wwwroot\\css\\open-iconic\\font\\fonts\\open-iconic.otf"
     },
     {
-      "Identity": "G:\\repogitory\\gen_blazor_openai_chatgpt\\src\\wwwroot\\css\\open-iconic\\font\\fonts\\open-iconic.svg",
+      "Identity": "G:\\repogitory\\hm_chatgpt_in_browser\\src\\wwwroot\\css\\open-iconic\\font\\fonts\\open-iconic.svg",
       "SourceId": "HmChatGptInBrowser",
       "SourceType": "Discovered",
-      "ContentRoot": "G:\\repogitory\\gen_blazor_openai_chatgpt\\src\\wwwroot\\",
+      "ContentRoot": "G:\\repogitory\\hm_chatgpt_in_browser\\src\\wwwroot\\",
       "BasePath": "_content/HmChatGptInBrowser",
       "RelativePath": "css/open-iconic/font/fonts/open-iconic.svg",
       "AssetKind": "All",
@@ -170,10 +170,10 @@
       "OriginalItemSpec": "wwwroot\\css\\open-iconic\\font\\fonts\\open-iconic.svg"
     },
     {
-      "Identity": "G:\\repogitory\\gen_blazor_openai_chatgpt\\src\\wwwroot\\css\\open-iconic\\font\\fonts\\open-iconic.ttf",
+      "Identity": "G:\\repogitory\\hm_chatgpt_in_browser\\src\\wwwroot\\css\\open-iconic\\font\\fonts\\open-iconic.ttf",
       "SourceId": "HmChatGptInBrowser",
       "SourceType": "Discovered",
-      "ContentRoot": "G:\\repogitory\\gen_blazor_openai_chatgpt\\src\\wwwroot\\",
+      "ContentRoot": "G:\\repogitory\\hm_chatgpt_in_browser\\src\\wwwroot\\",
       "BasePath": "_content/HmChatGptInBrowser",
       "RelativePath": "css/open-iconic/font/fonts/open-iconic.ttf",
       "AssetKind": "All",
@@ -187,10 +187,10 @@
       "OriginalItemSpec": "wwwroot\\css\\open-iconic\\font\\fonts\\open-iconic.ttf"
     },
     {
-      "Identity": "G:\\repogitory\\gen_blazor_openai_chatgpt\\src\\wwwroot\\css\\open-iconic\\font\\fonts\\open-iconic.woff",
+      "Identity": "G:\\repogitory\\hm_chatgpt_in_browser\\src\\wwwroot\\css\\open-iconic\\font\\fonts\\open-iconic.woff",
       "SourceId": "HmChatGptInBrowser",
       "SourceType": "Discovered",
-      "ContentRoot": "G:\\repogitory\\gen_blazor_openai_chatgpt\\src\\wwwroot\\",
+      "ContentRoot": "G:\\repogitory\\hm_chatgpt_in_browser\\src\\wwwroot\\",
       "BasePath": "_content/HmChatGptInBrowser",
       "RelativePath": "css/open-iconic/font/fonts/open-iconic.woff",
       "AssetKind": "All",
@@ -204,10 +204,10 @@
       "OriginalItemSpec": "wwwroot\\css\\open-iconic\\font\\fonts\\open-iconic.woff"
     },
     {
-      "Identity": "G:\\repogitory\\gen_blazor_openai_chatgpt\\src\\wwwroot\\css\\open-iconic\\ICON-LICENSE",
+      "Identity": "G:\\repogitory\\hm_chatgpt_in_browser\\src\\wwwroot\\css\\open-iconic\\ICON-LICENSE",
       "SourceId": "HmChatGptInBrowser",
       "SourceType": "Discovered",
-      "ContentRoot": "G:\\repogitory\\gen_blazor_openai_chatgpt\\src\\wwwroot\\",
+      "ContentRoot": "G:\\repogitory\\hm_chatgpt_in_browser\\src\\wwwroot\\",
       "BasePath": "_content/HmChatGptInBrowser",
       "RelativePath": "css/open-iconic/ICON-LICENSE",
       "AssetKind": "All",
@@ -221,10 +221,10 @@
       "OriginalItemSpec": "wwwroot\\css\\open-iconic\\ICON-LICENSE"
     },
     {
-      "Identity": "G:\\repogitory\\gen_blazor_openai_chatgpt\\src\\wwwroot\\css\\open-iconic\\README.md",
+      "Identity": "G:\\repogitory\\hm_chatgpt_in_browser\\src\\wwwroot\\css\\open-iconic\\README.md",
       "SourceId": "HmChatGptInBrowser",
       "SourceType": "Discovered",
-      "ContentRoot": "G:\\repogitory\\gen_blazor_openai_chatgpt\\src\\wwwroot\\",
+      "ContentRoot": "G:\\repogitory\\hm_chatgpt_in_browser\\src\\wwwroot\\",
       "BasePath": "_content/HmChatGptInBrowser",
       "RelativePath": "css/open-iconic/README.md",
       "AssetKind": "All",
@@ -238,10 +238,10 @@
       "OriginalItemSpec": "wwwroot\\css\\open-iconic\\README.md"
     },
     {
-      "Identity": "G:\\repogitory\\gen_blazor_openai_chatgpt\\src\\wwwroot\\css\\site.css",
+      "Identity": "G:\\repogitory\\hm_chatgpt_in_browser\\src\\wwwroot\\css\\site.css",
       "SourceId": "HmChatGptInBrowser",
       "SourceType": "Discovered",
-      "ContentRoot": "G:\\repogitory\\gen_blazor_openai_chatgpt\\src\\wwwroot\\",
+      "ContentRoot": "G:\\repogitory\\hm_chatgpt_in_browser\\src\\wwwroot\\",
       "BasePath": "_content/HmChatGptInBrowser",
       "RelativePath": "css/site.css",
       "AssetKind": "All",
@@ -255,10 +255,10 @@
       "OriginalItemSpec": "wwwroot\\css\\site.css"
     },
     {
-      "Identity": "G:\\repogitory\\gen_blazor_openai_chatgpt\\src\\wwwroot\\favicon.ico",
+      "Identity": "G:\\repogitory\\hm_chatgpt_in_browser\\src\\wwwroot\\favicon.ico",
       "SourceId": "HmChatGptInBrowser",
       "SourceType": "Discovered",
-      "ContentRoot": "G:\\repogitory\\gen_blazor_openai_chatgpt\\src\\wwwroot\\",
+      "ContentRoot": "G:\\repogitory\\hm_chatgpt_in_browser\\src\\wwwroot\\",
       "BasePath": "_content/HmChatGptInBrowser",
       "RelativePath": "favicon.ico",
       "AssetKind": "All",

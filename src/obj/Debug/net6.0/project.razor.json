@@ -87,39 +87,179 @@
         }
       },
       {
-        "HashCode": -974703934,
+        "HashCode": -1525721850,
         "Kind": "Components.Component",
-        "Name": "HmChatGptInBrowser.Pages.Chat.Chat",
+        "Name": "HmChatGptInBrowser.Pages.Chat.components.Conversation",
         "AssemblyName": "HmChatGptInBrowser",
         "CaseSensitive": true,
         "TagMatchingRules": [
           {
-            "TagName": "Chat"
+            "TagName": "Conversation"
+          }
+        ],
+        "BoundAttributes": [
+          {
+            "Kind": "Components.Component",
+            "Name": "Results",
+            "TypeName": "System.Collections.Generic.List<HmChatGptInBrowser.Data.ChatInfo>",
+            "Metadata": {
+              "Common.PropertyName": "Results",
+              "Common.GloballyQualifiedTypeName": "global::System.Collections.Generic.List<global::HmChatGptInBrowser.Data.ChatInfo>"
+            }
           }
         ],
         "Metadata": {
           "Runtime.Name": "Components.IComponent",
-          "Common.TypeName": "HmChatGptInBrowser.Pages.Chat.Chat",
-          "Common.TypeNamespace": "HmChatGptInBrowser.Pages.Chat",
-          "Common.TypeNameIdentifier": "Chat"
+          "Common.TypeName": "HmChatGptInBrowser.Pages.Chat.components.Conversation",
+          "Common.TypeNamespace": "HmChatGptInBrowser.Pages.Chat.components",
+          "Common.TypeNameIdentifier": "Conversation"
         }
       },
       {
-        "HashCode": -1440442866,
+        "HashCode": 506835746,
         "Kind": "Components.Component",
-        "Name": "HmChatGptInBrowser.Pages.Chat.Chat",
+        "Name": "HmChatGptInBrowser.Pages.Chat.components.Conversation",
         "AssemblyName": "HmChatGptInBrowser",
         "CaseSensitive": true,
         "TagMatchingRules": [
           {
-            "TagName": "HmChatGptInBrowser.Pages.Chat.Chat"
+            "TagName": "HmChatGptInBrowser.Pages.Chat.components.Conversation"
+          }
+        ],
+        "BoundAttributes": [
+          {
+            "Kind": "Components.Component",
+            "Name": "Results",
+            "TypeName": "System.Collections.Generic.List<HmChatGptInBrowser.Data.ChatInfo>",
+            "Metadata": {
+              "Common.PropertyName": "Results",
+              "Common.GloballyQualifiedTypeName": "global::System.Collections.Generic.List<global::HmChatGptInBrowser.Data.ChatInfo>"
+            }
           }
         ],
         "Metadata": {
           "Runtime.Name": "Components.IComponent",
-          "Common.TypeName": "HmChatGptInBrowser.Pages.Chat.Chat",
-          "Common.TypeNamespace": "HmChatGptInBrowser.Pages.Chat",
-          "Common.TypeNameIdentifier": "Chat",
+          "Common.TypeName": "HmChatGptInBrowser.Pages.Chat.components.Conversation",
+          "Common.TypeNamespace": "HmChatGptInBrowser.Pages.Chat.components",
+          "Common.TypeNameIdentifier": "Conversation",
+          "Components.NameMatch": "Components.FullyQualifiedNameMatch"
+        }
+      },
+      {
+        "HashCode": -853557374,
+        "Kind": "Components.Component",
+        "Name": "HmChatGptInBrowser.Pages.Chat.components.ErrorIndicator",
+        "AssemblyName": "HmChatGptInBrowser",
+        "CaseSensitive": true,
+        "TagMatchingRules": [
+          {
+            "TagName": "ErrorIndicator"
+          }
+        ],
+        "BoundAttributes": [
+          {
+            "Kind": "Components.Component",
+            "Name": "ErrorText",
+            "TypeName": "System.String",
+            "Metadata": {
+              "Common.PropertyName": "ErrorText",
+              "Common.GloballyQualifiedTypeName": "global::System.String"
+            }
+          }
+        ],
+        "Metadata": {
+          "Runtime.Name": "Components.IComponent",
+          "Common.TypeName": "HmChatGptInBrowser.Pages.Chat.components.ErrorIndicator",
+          "Common.TypeNamespace": "HmChatGptInBrowser.Pages.Chat.components",
+          "Common.TypeNameIdentifier": "ErrorIndicator"
+        }
+      },
+      {
+        "HashCode": 782384784,
+        "Kind": "Components.Component",
+        "Name": "HmChatGptInBrowser.Pages.Chat.components.ErrorIndicator",
+        "AssemblyName": "HmChatGptInBrowser",
+        "CaseSensitive": true,
+        "TagMatchingRules": [
+          {
+            "TagName": "HmChatGptInBrowser.Pages.Chat.components.ErrorIndicator"
+          }
+        ],
+        "BoundAttributes": [
+          {
+            "Kind": "Components.Component",
+            "Name": "ErrorText",
+            "TypeName": "System.String",
+            "Metadata": {
+              "Common.PropertyName": "ErrorText",
+              "Common.GloballyQualifiedTypeName": "global::System.String"
+            }
+          }
+        ],
+        "Metadata": {
+          "Runtime.Name": "Components.IComponent",
+          "Common.TypeName": "HmChatGptInBrowser.Pages.Chat.components.ErrorIndicator",
+          "Common.TypeNamespace": "HmChatGptInBrowser.Pages.Chat.components",
+          "Common.TypeNameIdentifier": "ErrorIndicator",
+          "Components.NameMatch": "Components.FullyQualifiedNameMatch"
+        }
+      },
+      {
+        "HashCode": -665050577,
+        "Kind": "Components.Component",
+        "Name": "HmChatGptInBrowser.Pages.Chat.components.LoadingIndicator",
+        "AssemblyName": "HmChatGptInBrowser",
+        "CaseSensitive": true,
+        "TagMatchingRules": [
+          {
+            "TagName": "LoadingIndicator"
+          }
+        ],
+        "BoundAttributes": [
+          {
+            "Kind": "Components.Component",
+            "Name": "StatusText",
+            "TypeName": "System.String",
+            "Metadata": {
+              "Common.PropertyName": "StatusText",
+              "Common.GloballyQualifiedTypeName": "global::System.String"
+            }
+          }
+        ],
+        "Metadata": {
+          "Runtime.Name": "Components.IComponent",
+          "Common.TypeName": "HmChatGptInBrowser.Pages.Chat.components.LoadingIndicator",
+          "Common.TypeNamespace": "HmChatGptInBrowser.Pages.Chat.components",
+          "Common.TypeNameIdentifier": "LoadingIndicator"
+        }
+      },
+      {
+        "HashCode": -110190827,
+        "Kind": "Components.Component",
+        "Name": "HmChatGptInBrowser.Pages.Chat.components.LoadingIndicator",
+        "AssemblyName": "HmChatGptInBrowser",
+        "CaseSensitive": true,
+        "TagMatchingRules": [
+          {
+            "TagName": "HmChatGptInBrowser.Pages.Chat.components.LoadingIndicator"
+          }
+        ],
+        "BoundAttributes": [
+          {
+            "Kind": "Components.Component",
+            "Name": "StatusText",
+            "TypeName": "System.String",
+            "Metadata": {
+              "Common.PropertyName": "StatusText",
+              "Common.GloballyQualifiedTypeName": "global::System.String"
+            }
+          }
+        ],
+        "Metadata": {
+          "Runtime.Name": "Components.IComponent",
+          "Common.TypeName": "HmChatGptInBrowser.Pages.Chat.components.LoadingIndicator",
+          "Common.TypeNamespace": "HmChatGptInBrowser.Pages.Chat.components",
+          "Common.TypeNameIdentifier": "LoadingIndicator",
           "Components.NameMatch": "Components.FullyQualifiedNameMatch"
         }
       },
@@ -279,65 +419,6 @@
         }
       },
       {
-        "HashCode": -1525721850,
-        "Kind": "Components.Component",
-        "Name": "HmChatGptInBrowser.Pages.Chat.components.Conversation",
-        "AssemblyName": "HmChatGptInBrowser",
-        "CaseSensitive": true,
-        "TagMatchingRules": [
-          {
-            "TagName": "Conversation"
-          }
-        ],
-        "BoundAttributes": [
-          {
-            "Kind": "Components.Component",
-            "Name": "Results",
-            "TypeName": "System.Collections.Generic.List<HmChatGptInBrowser.Data.ChatInfo>",
-            "Metadata": {
-              "Common.PropertyName": "Results",
-              "Common.GloballyQualifiedTypeName": "global::System.Collections.Generic.List<global::HmChatGptInBrowser.Data.ChatInfo>"
-            }
-          }
-        ],
-        "Metadata": {
-          "Runtime.Name": "Components.IComponent",
-          "Common.TypeName": "HmChatGptInBrowser.Pages.Chat.components.Conversation",
-          "Common.TypeNamespace": "HmChatGptInBrowser.Pages.Chat.components",
-          "Common.TypeNameIdentifier": "Conversation"
-        }
-      },
-      {
-        "HashCode": 506835746,
-        "Kind": "Components.Component",
-        "Name": "HmChatGptInBrowser.Pages.Chat.components.Conversation",
-        "AssemblyName": "HmChatGptInBrowser",
-        "CaseSensitive": true,
-        "TagMatchingRules": [
-          {
-            "TagName": "HmChatGptInBrowser.Pages.Chat.components.Conversation"
-          }
-        ],
-        "BoundAttributes": [
-          {
-            "Kind": "Components.Component",
-            "Name": "Results",
-            "TypeName": "System.Collections.Generic.List<HmChatGptInBrowser.Data.ChatInfo>",
-            "Metadata": {
-              "Common.PropertyName": "Results",
-              "Common.GloballyQualifiedTypeName": "global::System.Collections.Generic.List<global::HmChatGptInBrowser.Data.ChatInfo>"
-            }
-          }
-        ],
-        "Metadata": {
-          "Runtime.Name": "Components.IComponent",
-          "Common.TypeName": "HmChatGptInBrowser.Pages.Chat.components.Conversation",
-          "Common.TypeNamespace": "HmChatGptInBrowser.Pages.Chat.components",
-          "Common.TypeNameIdentifier": "Conversation",
-          "Components.NameMatch": "Components.FullyQualifiedNameMatch"
-        }
-      },
-      {
         "HashCode": 2058008980,
         "Kind": "Components.Component",
         "Name": "HmChatGptInBrowser.Pages.Chat.components.ConversationContext",
@@ -397,157 +478,39 @@
         }
       },
       {
-        "HashCode": -853557374,
+        "HashCode": -974703934,
         "Kind": "Components.Component",
-        "Name": "HmChatGptInBrowser.Pages.Chat.components.ErrorIndicator",
+        "Name": "HmChatGptInBrowser.Pages.Chat.Chat",
         "AssemblyName": "HmChatGptInBrowser",
         "CaseSensitive": true,
         "TagMatchingRules": [
           {
-            "TagName": "ErrorIndicator"
-          }
-        ],
-        "BoundAttributes": [
-          {
-            "Kind": "Components.Component",
-            "Name": "ErrorText",
-            "TypeName": "System.String",
-            "Metadata": {
-              "Common.PropertyName": "ErrorText",
-              "Common.GloballyQualifiedTypeName": "global::System.String"
-            }
+            "TagName": "Chat"
           }
         ],
         "Metadata": {
           "Runtime.Name": "Components.IComponent",
-          "Common.TypeName": "HmChatGptInBrowser.Pages.Chat.components.ErrorIndicator",
-          "Common.TypeNamespace": "HmChatGptInBrowser.Pages.Chat.components",
-          "Common.TypeNameIdentifier": "ErrorIndicator"
+          "Common.TypeName": "HmChatGptInBrowser.Pages.Chat.Chat",
+          "Common.TypeNamespace": "HmChatGptInBrowser.Pages.Chat",
+          "Common.TypeNameIdentifier": "Chat"
         }
       },
       {
-        "HashCode": 782384784,
+        "HashCode": -1440442866,
         "Kind": "Components.Component",
-        "Name": "HmChatGptInBrowser.Pages.Chat.components.ErrorIndicator",
+        "Name": "HmChatGptInBrowser.Pages.Chat.Chat",
         "AssemblyName": "HmChatGptInBrowser",
         "CaseSensitive": true,
         "TagMatchingRules": [
           {
-            "TagName": "HmChatGptInBrowser.Pages.Chat.components.ErrorIndicator"
-          }
-        ],
-        "BoundAttributes": [
-          {
-            "Kind": "Components.Component",
-            "Name": "ErrorText",
-            "TypeName": "System.String",
-            "Metadata": {
-              "Common.PropertyName": "ErrorText",
-              "Common.GloballyQualifiedTypeName": "global::System.String"
-            }
+            "TagName": "HmChatGptInBrowser.Pages.Chat.Chat"
           }
         ],
         "Metadata": {
           "Runtime.Name": "Components.IComponent",
-          "Common.TypeName": "HmChatGptInBrowser.Pages.Chat.components.ErrorIndicator",
-          "Common.TypeNamespace": "HmChatGptInBrowser.Pages.Chat.components",
-          "Common.TypeNameIdentifier": "ErrorIndicator",
-          "Components.NameMatch": "Components.FullyQualifiedNameMatch"
-        }
-      },
-      {
-        "HashCode": -665050577,
-        "Kind": "Components.Component",
-        "Name": "HmChatGptInBrowser.Pages.Chat.components.LoadingIndicator",
-        "AssemblyName": "HmChatGptInBrowser",
-        "CaseSensitive": true,
-        "TagMatchingRules": [
-          {
-            "TagName": "LoadingIndicator"
-          }
-        ],
-        "BoundAttributes": [
-          {
-            "Kind": "Components.Component",
-            "Name": "StatusText",
-            "TypeName": "System.String",
-            "Metadata": {
-              "Common.PropertyName": "StatusText",
-              "Common.GloballyQualifiedTypeName": "global::System.String"
-            }
-          }
-        ],
-        "Metadata": {
-          "Runtime.Name": "Components.IComponent",
-          "Common.TypeName": "HmChatGptInBrowser.Pages.Chat.components.LoadingIndicator",
-          "Common.TypeNamespace": "HmChatGptInBrowser.Pages.Chat.components",
-          "Common.TypeNameIdentifier": "LoadingIndicator"
-        }
-      },
-      {
-        "HashCode": -110190827,
-        "Kind": "Components.Component",
-        "Name": "HmChatGptInBrowser.Pages.Chat.components.LoadingIndicator",
-        "AssemblyName": "HmChatGptInBrowser",
-        "CaseSensitive": true,
-        "TagMatchingRules": [
-          {
-            "TagName": "HmChatGptInBrowser.Pages.Chat.components.LoadingIndicator"
-          }
-        ],
-        "BoundAttributes": [
-          {
-            "Kind": "Components.Component",
-            "Name": "StatusText",
-            "TypeName": "System.String",
-            "Metadata": {
-              "Common.PropertyName": "StatusText",
-              "Common.GloballyQualifiedTypeName": "global::System.String"
-            }
-          }
-        ],
-        "Metadata": {
-          "Runtime.Name": "Components.IComponent",
-          "Common.TypeName": "HmChatGptInBrowser.Pages.Chat.components.LoadingIndicator",
-          "Common.TypeNamespace": "HmChatGptInBrowser.Pages.Chat.components",
-          "Common.TypeNameIdentifier": "LoadingIndicator",
-          "Components.NameMatch": "Components.FullyQualifiedNameMatch"
-        }
-      },
-      {
-        "HashCode": 1089849910,
-        "Kind": "Components.Component",
-        "Name": "HmChatGptInBrowser.App",
-        "AssemblyName": "HmChatGptInBrowser",
-        "CaseSensitive": true,
-        "TagMatchingRules": [
-          {
-            "TagName": "App"
-          }
-        ],
-        "Metadata": {
-          "Runtime.Name": "Components.IComponent",
-          "Common.TypeName": "HmChatGptInBrowser.App",
-          "Common.TypeNamespace": "HmChatGptInBrowser",
-          "Common.TypeNameIdentifier": "App"
-        }
-      },
-      {
-        "HashCode": -396326527,
-        "Kind": "Components.Component",
-        "Name": "HmChatGptInBrowser.App",
-        "AssemblyName": "HmChatGptInBrowser",
-        "CaseSensitive": true,
-        "TagMatchingRules": [
-          {
-            "TagName": "HmChatGptInBrowser.App"
-          }
-        ],
-        "Metadata": {
-          "Runtime.Name": "Components.IComponent",
-          "Common.TypeName": "HmChatGptInBrowser.App",
-          "Common.TypeNamespace": "HmChatGptInBrowser",
-          "Common.TypeNameIdentifier": "App",
+          "Common.TypeName": "HmChatGptInBrowser.Pages.Chat.Chat",
+          "Common.TypeNamespace": "HmChatGptInBrowser.Pages.Chat",
+          "Common.TypeNameIdentifier": "Chat",
           "Components.NameMatch": "Components.FullyQualifiedNameMatch"
         }
       },
@@ -607,6 +570,43 @@
           "Common.TypeName": "HmChatGptInBrowser.Shared.SurveyPrompt",
           "Common.TypeNamespace": "HmChatGptInBrowser.Shared",
           "Common.TypeNameIdentifier": "SurveyPrompt",
+          "Components.NameMatch": "Components.FullyQualifiedNameMatch"
+        }
+      },
+      {
+        "HashCode": -192037718,
+        "Kind": "Components.Component",
+        "Name": "HmChatGptInBrowser.Shared.NavMenu",
+        "AssemblyName": "HmChatGptInBrowser",
+        "CaseSensitive": true,
+        "TagMatchingRules": [
+          {
+            "TagName": "NavMenu"
+          }
+        ],
+        "Metadata": {
+          "Runtime.Name": "Components.IComponent",
+          "Common.TypeName": "HmChatGptInBrowser.Shared.NavMenu",
+          "Common.TypeNamespace": "HmChatGptInBrowser.Shared",
+          "Common.TypeNameIdentifier": "NavMenu"
+        }
+      },
+      {
+        "HashCode": -2120170319,
+        "Kind": "Components.Component",
+        "Name": "HmChatGptInBrowser.Shared.NavMenu",
+        "AssemblyName": "HmChatGptInBrowser",
+        "CaseSensitive": true,
+        "TagMatchingRules": [
+          {
+            "TagName": "HmChatGptInBrowser.Shared.NavMenu"
+          }
+        ],
+        "Metadata": {
+          "Runtime.Name": "Components.IComponent",
+          "Common.TypeName": "HmChatGptInBrowser.Shared.NavMenu",
+          "Common.TypeNamespace": "HmChatGptInBrowser.Shared",
+          "Common.TypeNameIdentifier": "NavMenu",
           "Components.NameMatch": "Components.FullyQualifiedNameMatch"
         }
       },
@@ -717,39 +717,39 @@
         }
       },
       {
-        "HashCode": -192037718,
+        "HashCode": 1089849910,
         "Kind": "Components.Component",
-        "Name": "HmChatGptInBrowser.Shared.NavMenu",
+        "Name": "HmChatGptInBrowser.App",
         "AssemblyName": "HmChatGptInBrowser",
         "CaseSensitive": true,
         "TagMatchingRules": [
           {
-            "TagName": "NavMenu"
+            "TagName": "App"
           }
         ],
         "Metadata": {
           "Runtime.Name": "Components.IComponent",
-          "Common.TypeName": "HmChatGptInBrowser.Shared.NavMenu",
-          "Common.TypeNamespace": "HmChatGptInBrowser.Shared",
-          "Common.TypeNameIdentifier": "NavMenu"
+          "Common.TypeName": "HmChatGptInBrowser.App",
+          "Common.TypeNamespace": "HmChatGptInBrowser",
+          "Common.TypeNameIdentifier": "App"
         }
       },
       {
-        "HashCode": -2120170319,
+        "HashCode": -396326527,
         "Kind": "Components.Component",
-        "Name": "HmChatGptInBrowser.Shared.NavMenu",
+        "Name": "HmChatGptInBrowser.App",
         "AssemblyName": "HmChatGptInBrowser",
         "CaseSensitive": true,
         "TagMatchingRules": [
           {
-            "TagName": "HmChatGptInBrowser.Shared.NavMenu"
+            "TagName": "HmChatGptInBrowser.App"
           }
         ],
         "Metadata": {
           "Runtime.Name": "Components.IComponent",
-          "Common.TypeName": "HmChatGptInBrowser.Shared.NavMenu",
-          "Common.TypeNamespace": "HmChatGptInBrowser.Shared",
-          "Common.TypeNameIdentifier": "NavMenu",
+          "Common.TypeName": "HmChatGptInBrowser.App",
+          "Common.TypeNamespace": "HmChatGptInBrowser",
+          "Common.TypeNameIdentifier": "App",
           "Components.NameMatch": "Components.FullyQualifiedNameMatch"
         }
       },
