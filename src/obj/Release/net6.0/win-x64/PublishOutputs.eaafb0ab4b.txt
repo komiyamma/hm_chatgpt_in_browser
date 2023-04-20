@@ -1,0 +1,4 @@
+G:\repogitory\hm_chatgpt_in_browser\src\obj\Release\net6.0\win-x64\PubTmp\Out\appsettings.Development.json
+G:\repogitory\hm_chatgpt_in_browser\src\obj\Release\net6.0\win-x64\PubTmp\Out\appsettings.json
+G:\repogitory\hm_chatgpt_in_browser\src\obj\Release\net6.0\win-x64\PubTmp\Out\HmChatGptInBrowser.pdb
+G:\repogitory\hm_chatgpt_in_browser\src\obj\Release\net6.0\win-x64\PubTmp\Out\HmChatGptInBrowser.exe
