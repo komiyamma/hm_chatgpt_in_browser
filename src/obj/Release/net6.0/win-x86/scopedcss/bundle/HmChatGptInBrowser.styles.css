@@ -84,6 +84,7 @@
     --tw-bg-opacity: 1;
     background-color: rgba(220,220,230,var(--tw-bg-opacity));
 }
+
 /* _content/HmChatGptInBrowser/Pages/Chat/components/ConversationContext.razor.rz.scp.css */
 /* オリジナル
  .converation-context {
@@ -147,6 +148,7 @@
     border: none;
     resize: none;
 }
+
 /* _content/HmChatGptInBrowser/Pages/Chat/components/ErrorIndicator.razor.rz.scp.css */
 .error-area[b-rpb4nta9j3] {
     background: #ffffff54;
