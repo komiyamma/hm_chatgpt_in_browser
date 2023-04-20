@@ -84,3 +84,19 @@ a, .btn-link {
         border-radius: 20px;
         border: 3px solid rgba(32,33,35,var(--tw-bg-opacity));
     }
+
+/* ★ここに追加。ランタイムなのでrazorのcssではゴミが入って対応できない */
+
+.ai-reply div table {
+    border-collapse: collapse;
+}
+
+.ai-reply div table thead tr th {
+    border: 1px solid #000066;
+    background: #AAAAff;
+}
+
+.ai-reply div table tbody tr td {
+    border: 1px solid #000066;
+    background: #ffffff;
+}
