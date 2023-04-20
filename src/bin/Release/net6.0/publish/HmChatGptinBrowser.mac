@@ -17,7 +17,7 @@ SET_OPENAI_KEY:
 SET_BLAZOR_SERVER:
 
     // Blazorサーバーの実行ファイル(BlazorApp.exeなど) へのフルパスを指定。
-    $BLAZOR_FULLPATH = @"G:\repogitory\gen_blazor_openai_chatgpt\src\bin\Release\net6.0\publish\HmChatGptInBrowser.exe";
+    $BLAZOR_FULLPATH = currentmacrodirectory + @"\HmChatGptInBrowser.exe";
 
     #TARGET_BROWSER_PANE = 1; // 個別ブラウザ枠:2  共用ブラウザ枠:1    大きな事情がない限りはChatGPT/OpenAIの使用用途と考えると共通枠の方が良い。
 
