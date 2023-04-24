@@ -6,6 +6,7 @@ using System.Runtime.InteropServices;
 using static System.Net.Mime.MediaTypeNames;
 using System;
 using System.Diagnostics;
+using Microsoft.AspNetCore.Components.Server.Circuits;
 
 namespace HmChatGptInBrowser;
 
@@ -56,6 +57,9 @@ public partial class Program
         // Add services to the container.
         builder.Services.AddRazorPages();
         builder.Services.AddServerSideBlazor();
+
+        // ★ BlazorServerアプリへの接続や切断をイベントハンドラ的に監視する
+        builder.Services.AddSingleton<CircuitHandler, CircuitHandlerService>();
         
 
         app = builder.Build();

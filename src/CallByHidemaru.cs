@@ -5,14 +5,6 @@ namespace HmChatGptInBrowser;
 
 public partial class Program
 {
-    /*
-    const int GWL_STYLE = -16;
-    const long WS_VISIBLE = 0x10000000L;
-
-    [DllImport("user32.dll", EntryPoint = "GetWindowLong")]
-    static extern IntPtr GetWindowLongPtr(IntPtr hWnd, int nIndex);
-    */
-    
     [DllImport("user32.dll", CharSet = CharSet.Auto, SetLastError = true)]
     public static extern IntPtr FindWindowEx(IntPtr hWndParent, IntPtr hWndChildAfter, string lpClassName, IntPtr strWindowName);
 
@@ -28,6 +20,14 @@ public partial class Program
 
         while (true) // 無限ループ
         {
+            // 接続者数が0になっていたら break;
+            // ブラウザなどが強制終了した場合には検知できないので完全ではない。
+            // しかし、正常にブラウザ枠を閉じたのであれば、これが最もスマートに検知できるだろう
+            if (CircuitHandlerService.RemainingTotalConnections == 0)
+            {
+                break;
+            }
+
             await Task.Delay(1000); // 1秒おき
 
             // 「hidemaru」の部分だけ抽出。万が一 hidemaru.exe の名前を変更するような人が居ても動作するようにする。
@@ -59,27 +59,6 @@ public partial class Program
                 {
                     break;
                 }
-
-                /* これは意味がない。なぜなら共有ブラウザ枠でサーバーを呼び出すと、本体とは別途に秀丸プロセスが追加で割り当てられるから。
-                // Hidemaru32Class の子ウインドウにさらに Hidemaru32Class がぶら下がっている
-                IntPtr hWndNested = FindWindowEx(IntPtr.Zero, IntPtr.Zero, "Hidemaru32Class", IntPtr.Zero);
-                if (hWndNested != IntPtr.Zero)
-                {
-                    IntPtr hBrowserWnd = FindWindowEx(IntPtr.Zero, IntPtr.Zero, "HM32CommonBrowserPane", IntPtr.Zero);
-                    if (hBrowserWnd != IntPtr.Zero)
-                    {
-                        long hontai = (long)GetWindowLongPtr(hWndNested, GWL_STYLE);
-                        long browser = (long)GetWindowLongPtr(hBrowserWnd, GWL_STYLE);
-
-                        // 本体は表示されてるのに、ブラウザは表示されてない
-                        if ((hontai & WS_VISIBLE) > 0 && (browser & WS_VISIBLE) == 0)
-                        {
-                            Trace.WriteLine("本体は表示されてるが共有ブラウザは非表示"); //
-                            break;
-                        }
-                    }
-                }
-                */
 
                 IntPtr hChild = FindWindowEx(hWnd, IntPtr.Zero, IntPtr.Zero, IntPtr.Zero);
                 if (hChild != IntPtr.Zero)
