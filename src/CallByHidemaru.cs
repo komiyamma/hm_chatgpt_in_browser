@@ -53,13 +53,15 @@ public partial class Program
             // 常駐かどうかチェック
             if (true_list.Count == 1)
             {
-
+                // 基本プロセス１つあるんだから、これは無いはずだが... 一応将来 hidemaru.exe なんだけど Hidemaru32Class を持たないといった実装があるなら
+                // (ちなみに、ストアアプリ版は、Hidemaru32Class ではなく Hidemaru32Class_Appx だが、初回公開以降、更新されてないようなので無視
                 IntPtr hWnd = FindWindowEx(IntPtr.Zero, IntPtr.Zero, "Hidemaru32Class", IntPtr.Zero);
                 if (hWnd == IntPtr.Zero)
                 {
                     break;
                 }
 
+                // 常駐秀丸は、通常時だと子ウィンドウは持たないので、この判定が効く
                 IntPtr hChild = FindWindowEx(hWnd, IntPtr.Zero, IntPtr.Zero, IntPtr.Zero);
                 if (hChild != IntPtr.Zero)
                 {
