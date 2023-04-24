@@ -59,6 +59,11 @@ public partial class Program
                 }
             }
 
+            if (true_list.Count == 0)
+            {
+                break;
+            }
+
             // 常駐かどうかチェック。実はほぼここは実行されない。理由は、共有ブラウザ枠を一度起動すると、
             // 常駐以外でも最低２つ秀丸プロセスが起動する形となるため。
             if (true_list.Count == 1)
