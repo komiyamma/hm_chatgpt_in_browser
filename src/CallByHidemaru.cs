@@ -13,13 +13,24 @@ public partial class Program
 
     private static async Task CheckFindHidemaruWindowTasks(string exefullpath)
     {
-        await Task.Delay(3000); // 2秒待機
+        for ( int i=0; i<5; i++)
+        {
+            await Task.Delay(600); // 0.6秒待機
+
+            // 接続者数が1以上になっていたら、誰か接続したってことで初回接続待機をする必要なしとみなして break;
+            if (CircuitHandlerService.RemainingTotalConnections > 0)
+            {
+                break;
+            }
+        }
 
         // 渡されたexeのフルパス
         var basename = Path.GetFileNameWithoutExtension(exefullpath);
 
         while (true) // 無限ループ
         {
+            await Task.Delay(1000); // 1秒おき
+
             // 接続者数が0になっていたら break;
             // ブラウザなどが強制終了した場合には検知できないので完全ではない。
             // しかし、正常にブラウザ枠を閉じたのであれば、これが最もスマートに検知できるだろう
@@ -27,8 +38,6 @@ public partial class Program
             {
                 break;
             }
-
-            await Task.Delay(1000); // 1秒おき
 
             // 「hidemaru」の部分だけ抽出。万が一 hidemaru.exe の名前を変更するような人が居ても動作するようにする。
             Process[] proc_list = Process.GetProcessesByName(basename);
