@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "SR6FhmCGIFUqVJj+5IEgN+JT6n2YMSCzndKglwWJHH8=",
+  "Hash": "jjv66CDmQY4/avhRQ5O3sVyU7XorrDGbQBlwJnthCpo=",
   "Source": "HmChatGptInBrowser",
   "BasePath": "_content/HmChatGptInBrowser",
   "Mode": "Default",
@@ -83,23 +83,6 @@
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot\\css\\bootstrap\\bootstrap.min.css.map"
-    },
-    {
-      "Identity": "G:\\repogitory\\hm_chatgpt_in_browser\\src\\wwwroot\\css\\open-iconic\\FONT-LICENSE",
-      "SourceId": "HmChatGptInBrowser",
-      "SourceType": "Discovered",
-      "ContentRoot": "G:\\repogitory\\hm_chatgpt_in_browser\\src\\wwwroot\\",
-      "BasePath": "_content/HmChatGptInBrowser",
-      "RelativePath": "css/open-iconic/FONT-LICENSE",
-      "AssetKind": "All",
-      "AssetMode": "All",
-      "AssetRole": "Primary",
-      "RelatedAsset": "",
-      "AssetTraitName": "",
-      "AssetTraitValue": "",
-      "CopyToOutputDirectory": "Never",
-      "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "wwwroot\\css\\open-iconic\\FONT-LICENSE"
     },
     {
       "Identity": "G:\\repogitory\\hm_chatgpt_in_browser\\src\\wwwroot\\css\\open-iconic\\font\\css\\open-iconic-bootstrap.min.css",
@@ -202,6 +185,23 @@
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot\\css\\open-iconic\\font\\fonts\\open-iconic.woff"
+    },
+    {
+      "Identity": "G:\\repogitory\\hm_chatgpt_in_browser\\src\\wwwroot\\css\\open-iconic\\FONT-LICENSE",
+      "SourceId": "HmChatGptInBrowser",
+      "SourceType": "Discovered",
+      "ContentRoot": "G:\\repogitory\\hm_chatgpt_in_browser\\src\\wwwroot\\",
+      "BasePath": "_content/HmChatGptInBrowser",
+      "RelativePath": "css/open-iconic/FONT-LICENSE",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\css\\open-iconic\\FONT-LICENSE"
     },
     {
       "Identity": "G:\\repogitory\\hm_chatgpt_in_browser\\src\\wwwroot\\css\\open-iconic\\ICON-LICENSE",

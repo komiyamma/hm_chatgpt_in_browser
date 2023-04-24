@@ -43,6 +43,7 @@ public partial class Program
             Process[] proc_list = Process.GetProcessesByName(basename);
             if (proc_list.Length == 0)
             {
+                // Trace.WriteLine("偽ゼロ");
                 break;
             }
 
@@ -61,6 +62,7 @@ public partial class Program
 
             if (true_list.Count == 0)
             {
+                // Trace.WriteLine("真ゼロ");
                 break;
             }
 
@@ -73,26 +75,20 @@ public partial class Program
                 IntPtr hWnd = FindWindowEx(IntPtr.Zero, IntPtr.Zero, "Hidemaru32Class", IntPtr.Zero);
                 if (hWnd == IntPtr.Zero)
                 {
+                    // Trace.WriteLine("Hidemaru32Classなし");
                     break;
                 }
 
                 // 常駐秀丸は、通常時だと子ウィンドウは持たないので、この判定が効く
                 IntPtr hChild = FindWindowEx(hWnd, IntPtr.Zero, IntPtr.Zero, IntPtr.Zero);
-                if (hChild != IntPtr.Zero)
-                {
-                    // Trace.WriteLine("子ウィンドウあり");// 子ウィンドウありなので有効な秀丸エディタがある。
-                }
-                else
-                {
-                    // Trace.WriteLine("子ウィンドウなし");
-                    // 唯一のhidemaruプロセスは子ウィンドウなしなので、これは常駐秀丸かなにかである
+                if (hChild == IntPtr.Zero) {
+                    // Trace.WriteLine("Hidemaru32Classなのに子ウィンドウなし");
                     break; // 終わる
                 }
             }
             else
             {
-                // Trace.WriteLine("２子以上");
-                // Console.WriteLine("２つ以上プロセスあり");
+                // Trace.WriteLine("2プロセス以上");
             }
         }
 
