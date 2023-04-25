@@ -40,14 +40,6 @@ public partial class Program
                 break;
             }
 
-            // ★ Blazerアプリ関係なく、このPCのport使用状況から判定する
-            // Blazorでなくとも利用可能な汎用的な判定方法。特定のポートが使用されているか否かで判定する
-            // １つのhttpのポート要求で５つ増えたりするので、数は当てにならないが、「0」か「非ゼロ」かは正確。
-            int portConnectCount = TcpTargetPortConnectCount(port);
-            if (portConnectCount == 0) {
-                break;
-            }
-
             // ★ このアプリは関係なく、hidemaruの使用状況から判定する。
             // これにより、汎用のChromeやEdgeがhttp接続で該当のportを使用して接続していたとしても、
             // 秀丸エディタが全部終了していたら、このアプリも終了するといったことが可能となる。
