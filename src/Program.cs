@@ -20,7 +20,7 @@ public partial class Program
         if (args.Length >= 4)
         {
             if (args[2] == "call_by_hidemaru") {
-               _ = CheckFindHidemaruWindowTasks(args[3]);
+               _ = WatcherHidemaruProcess(Int32.Parse(args[1]), args[3]);
             }
         }
 
