@@ -21,7 +21,7 @@ SET_BLAZOR_SERVER:
 
     #TARGET_BROWSER_PANE = 1; // 個別ブラウザ枠:2  共用ブラウザ枠:1    大きな事情がない限りはChatGPT/OpenAIの使用用途と考えると共通枠の方が良い。
 
-    #BLAZOR_HOSTPORT = 49901;
+    #BLAZOR_HOSTPORT = 49998;
 
 
 SET_HIDEMARUEXE_PATH:

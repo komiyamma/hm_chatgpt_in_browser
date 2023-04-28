@@ -13,7 +13,7 @@ public partial class Program
 
     private static async Task WatcherHidemaruProcess(int port, string exefullpath)
     {
-        for ( int i=0; i<5; i++)
+        for ( int i=0; i<10; i++)
         {
             await Task.Delay(600); // 0.6秒待機
 
