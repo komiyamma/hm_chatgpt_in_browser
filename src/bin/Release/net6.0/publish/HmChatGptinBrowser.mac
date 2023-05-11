@@ -69,6 +69,6 @@ SHOW_BROWSER_PANE:
     showbrowserpane 1, #TARGET_BROWSER_PANE;
 
     // 対応するポートでBlazorが立っているので、そのURLをブラウザ枠に表示。
-    $BLAZOR_URL = sprintf("http://localhost:%d/chat", #BLAZOR_HOSTPORT);
+    $BLAZOR_URL = sprintf("http://localhost:%d/HmChatGptInBrowserChat", #BLAZOR_HOSTPORT);
     setbrowserpaneurl $BLAZOR_URL, #TARGET_BROWSER_PANE;
 
